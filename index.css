@@ -66,3 +66,29 @@
   text-align: center;
   font-weight: bold;
 }
+
+/* Left Sidebar Css */
+
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+  padding-bottom: 180px;
+}
+
+.left-sidebar-element {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.left-sidebar :hover {
+  background-color: rgb(204, 203, 202);
+}
