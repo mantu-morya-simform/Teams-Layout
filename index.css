@@ -92,3 +92,27 @@
 .left-sidebar :hover {
   background-color: rgb(204, 203, 202);
 }
+
+/* Style Mid Content  */
+
+.mid-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 20px 5px;
+  gap: 2px;
+}
+
+.mid-content-child {
+  border: 1px solid #000;
+  border-radius: 1%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.mid-content-child img {
+  margin-left: 10px;
+}
