@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 0.1fr 2fr;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .main-container-child {
@@ -19,7 +19,7 @@
   display: grid;
   grid-template-columns: 0.2fr 2fr 1fr;
   grid-template-rows: 0.1fr 1fr;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .main-container-inner-child {
@@ -34,4 +34,35 @@
 .top-navbar {
   grid-column: 2/4;
   grid-row: 1/2;
+}
+
+/* Top Headder CSS */
+
+.top-right-headder img {
+  border-radius: 50%;
+}
+
+.parent-headder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(90, 90, 211);
+}
+
+.top-hedder {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-search {
+  width: 600px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  text-align: center;
+  font-weight: bold;
 }
